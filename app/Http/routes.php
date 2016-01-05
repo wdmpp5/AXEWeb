@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//route to login page
+Route::get( '/', 'LoginController@index' );
 
 /*
 |--------------------------------------------------------------------------
